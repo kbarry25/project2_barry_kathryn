@@ -185,7 +185,7 @@ footer p {
   font-size: 3rem;
   font-weight: 900;
   font-style: italic;
-  color: #6c91a6;
+  color: #39545e;
 }
 
 .aboutimage {
@@ -248,7 +248,7 @@ figcaption {
   font-size: 3rem;
   font-weight: 900;
   font-style: italic;
-  color: #6c91a6;
+  color: #39545e;
 }
 
 .works h3 {
@@ -409,7 +409,7 @@ section.digitaldesign img {
  font-weight: 900;
  font-style: italic;
  color: #39545e;
- width: 100%;
+ width: 400px;
 }
 
 .contact h3 {
@@ -420,7 +420,7 @@ section.digitaldesign img {
   font-size: 1rem;
   font-weight: 400;
   color: #87a7b3;
-  width: 100%;
+  width: 200px;
 }
 .contact h4 {
   position: absolute;
@@ -430,7 +430,7 @@ section.digitaldesign img {
   font-size: 1rem;
   font-weight: 400;
   color: #87a7b3;
-  width: 100%;
+  width: 210px;
 }
 
   .contact-form {
@@ -484,5 +484,90 @@ section.digitaldesign img {
 
 @media (min-width: 700px) {
 
+  header {
+    height: 15vh;
+  }
 
+  footer {
+    height: 15vh;
+  }
+
+  .header {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    padding-top: 3%;
+    padding-left: 3%;
+    font-size: 2rem;
+    width: 60vw;
+  }
+
+  nav {
+    width: 40vw;
+    padding-top: 3%;
+  }
+
+  .home {
+    height: 70vh;
+  }
+
+  .works .divider {
+    height: 68vh;
+  }
+  .resume .divider {
+    height: 68vh;
+  }
+  .contact .divider {
+    height: 68vh;
+  }
+
+  .home img {
+    height: 70vh;
+  }
+
+  .home h2 {
+    padding: 80px 0 0 20px;
+  }
+
+  .home h3 {
+    padding: 140px 0 0 22px;
+  }
+
+  .home h4 {
+    padding: 220px 0 0 50px;
+  }
+
+  .home h5 {
+    padding: 240px 0 0 120px;
+  }
+
+  .works h2 {
+    font-size: 4rem;
+    top: 170px;
+  }
+  .about h2 {
+    font-size: 4rem;
+    top: 170px;
+  }
+  .resume h2 {
+    font-size: 4rem;
+    top: 170px;
+  }
+  .contact h2 {
+    font-size: 3.5rem;
+    top: 170px;
+  }
+
+@media (min-width: 800px) {
+
+  h1 {
+    font-size: 2.7rem;
+  }
+
+  nav ul li a {
+    font-size: 1rem;
+  }
 }
