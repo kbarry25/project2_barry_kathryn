@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+
+.site {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 3000px;
+  border-top: 2px solid #6c91a6;
+  border-bottom: 2px solid #6c91a6;
+
+}
+
+header {
+  height: 20vh;
+  display: flex;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  position: fixed;
+}
+
+h1 {
+ font-family: 'Oswald', sans-serif;
+ font-size: 3rem;
+ font-weight: 400;
+ color: #6c91a6;
+ text-transform: uppercase;
+ padding-top: 5%
+}
+
+
+nav {
+  width:100vw;
+}
+  ul {
+    list-style-type: none;
+    text-align: center;
+  }
+
+  nav li {
+    display: inline-block;
+    color: #6c91a6;
+    padding: 2%;
+    text-align: center;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #6c91a6;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: .8rem;
+    text-align: center;
+  }
+
+  nav ul li a:hover {
+    color: black;
+  }
+
+
+footer {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+footer p {
+  position: fixed;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #6c91a6;
+  text-transform: uppercase;
+}
+
+.divider {
+  height: 58vh;
+  padding-top: 2%;
+  width: 27%;
+}
+/* -------------------------------- HOME SECTION ---------------------------------- */
+
+.home {
+  width: 300px;
+  height: 60vh;
+}
+
+.home img {
+  height: 60vh;
+  z-index: -1
+  position: absolute;
+}
+
+.home h2 {
+  position: absolute;
+  /* padding: 10% 0% 0% 4%; */
+  padding: 40px 0 0 20px;
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 900;
+  font-style: italic;
+  color: white;
+}
+
+.home h3 {
+  position: absolute;
+  padding: 100px 0 0 22px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+}
+
+.home h4 {
+  position: absolute;
+  padding: 200px 0 0 50px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+}
+
+.home h5 {
+  position: absolute;
+  padding: 220px 0 0 120px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+}
+
+.home h5 {
+  animation: slide1 3s ease-in-out infinite;
+  margin-left: 9px;
+}
+
+@keyframes slide1 {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(10px, 0);
+  }
+}
+
+/* -------------------------------- ABOUT SECTION ---------------------------------- */
+
+
+.about {
+  width: 540px;
+}
+
+.about h2 {
+  position: absolute;
+  width: 100%;
+  top: 205px;
+  left: 350px;
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 900;
+  font-style: italic;
+  color: #6c91a6;
+}
+
+.aboutimage {
+  position: absolute;
+  left: 270px;
+  top: 350px;
+  height: 250px;
+  width: auto;
+
+}
+
+figcaption {
+  position: absolute;
+  width: 100%;
+  top: 610px;
+  left: 335px;
+  font-family: 'Oswald', sans-serif;
+  font-size: .4rem;
+  color: #6c91a6;
+}
+
+
+
+.aboutimage {
+  filter: blur(0px) grayscale(100%);
+  transition: .5s;
+}
+
+.about p {
+  position: absolute;
+  top: 330px;
+  left: 500px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: .7rem;
+  color: #6c91a6;
+  width: 70vw;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 350px;
+}
+
+/* -------------------------------- WORKS SECTION ---------------------------------- */
+
+.works {
+  width:500px;
+}
+
+.works h2 {
+  position: absolute;
+  top: 205px;
+  left: 1050px;
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 900;
+  font-style: italic;
+  color: #6c91a6;
+}
+
+/* -------------------------------- RESUME SECTION ---------------------------------- */
+
+
+/* -------------------------------- CONTACT SECTION ---------------------------------- */
