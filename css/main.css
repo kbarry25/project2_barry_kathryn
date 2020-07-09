@@ -16,11 +16,14 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 .container {
   display: flex;
   flex-direction: row;
-  width: 3000px;
+  width: 4300px;
   border-top: 2px solid #6c91a6;
   border-bottom: 2px solid #6c91a6;
 
 }
+
+/* -------------------------------- HEADER ---------------------------------- */
+
 
 header {
   height: 20vh;
@@ -45,6 +48,7 @@ h1 {
  padding-top: 5%
 }
 
+/* --------------------------------  NAV ---------------------------------- */
 
 nav {
   width:100vw;
@@ -74,6 +78,8 @@ nav {
     color: black;
   }
 
+  /* -------------------------------- FOOTER ---------------------------------- */
+
 
 footer {
   height: 20vh;
@@ -93,11 +99,8 @@ footer p {
   text-transform: uppercase;
 }
 
-.divider {
-  height: 58vh;
-  padding-top: 2%;
-  width: 27%;
-}
+
+
 /* -------------------------------- HOME SECTION ---------------------------------- */
 
 .home {
@@ -228,7 +231,13 @@ figcaption {
 /* -------------------------------- WORKS SECTION ---------------------------------- */
 
 .works {
-  width:500px;
+  width:1900px;
+}
+
+.works .divider {
+  width: 8%;
+  height: 58vh;
+  padding-top: .5%;
 }
 
 .works h2 {
@@ -242,7 +251,238 @@ figcaption {
   color: #6c91a6;
 }
 
+.works h3 {
+position: absolute;
+top: 300px;
+left: 1350px;
+font-family: 'Oswald', sans-serif;
+font-size: 30px;
+font-weight: 400;
+color: #39545e;
+text-shadow: 1px 1px gray;
+width: 100%;
+}
+.works h4 {
+position: absolute;
+top: 300px;
+left: 1870px;
+font-family: 'Oswald', sans-serif;
+font-size: 30px;
+font-weight: 400;
+color: #39545e;
+text-shadow: 1px 1px gray;
+width: 100%;
+}
+.works h5 {
+position: absolute;
+top: 300px;
+left: 2400px;
+font-family: 'Oswald', sans-serif;
+font-size: 30px;
+font-weight: 400;
+color: #39545e;
+text-shadow: 1px 1px gray;
+width: 100%;
+}
+
+
+
+
+section.customgraphics img {
+  width: 100px;
+}
+
+.digitaldesign {
+  position: absolute;
+  display: flex;
+  top: 360px;
+  left: 1300px;
+  filter: blur(0px);
+  transition: .5s;
+}
+.customgraphics:hover {
+  filter: blur(0px) grayscale(90%);
+  transition: .5s
+}
+
+section.productdesign img {
+  width: 110px;
+}
+
+.productdesign {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 360px;
+  left: 1800px;
+  filter: blur(0px);
+  transition: .5s;
+}
+
+
+.productdesign:hover {
+  filter: blur(0px) grayscale(90%);
+  transition: .5s
+}
+
+section.digitaldesign img {
+  height: 100px;
+}
+.customgraphics {
+  position: absolute;
+  display: flex;
+  top: 360px;
+  left: 2300px;
+  filter: blur(0px);
+  transition: .5s;
+}
+
+.digitaldesign:hover {
+  filter: blur(0px) grayscale(90%);
+  transition: .5s
+}
+
 /* -------------------------------- RESUME SECTION ---------------------------------- */
 
 
+.resume {
+  width: 650px;
+}
+.resume .divider {
+  width: 27%;
+  height: 58vh;
+  padding-top: 1.5%;
+}
+
+ .resume h2 {
+  position: absolute;
+  top: 205px;
+  left: 2950px;
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 900;
+  font-style: italic;
+  color: #39545e;
+}
+
+.resume h3 {
+  position: absolute;
+  top: 280px;
+  left: 3050px;
+  font-family: 'Oswald', sans-serif;
+  font-size: .5rem;
+  font-weight: 400;
+  font-style: italic;
+  color: #87a7b3;
+  width: 100%;
+}
+
+.resumeimage {
+  height: 40vh;
+  width: auto;
+  position: absolute;
+  top: 295px;
+  left: 3050px;
+  border: 2px solid #39545e;
+}
+
+
+
 /* -------------------------------- CONTACT SECTION ---------------------------------- */
+
+.contact {
+  width: 850px;
+}
+
+.contact .divider {
+  width: 19%;
+  height: 58vh;
+  padding-top: 1.5%;
+}
+
+.contact h2 {
+ position: absolute;
+ top: 205px;
+ left: 3550px;
+ font-family: 'Playfair Display', serif;
+ font-size: 3rem;
+ font-weight: 900;
+ font-style: italic;
+ color: #39545e;
+ width: 100%;
+}
+
+.contact h3 {
+  position: absolute;
+  top: 330px;
+  left: 3600px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #87a7b3;
+  width: 100%;
+}
+.contact h4 {
+  position: absolute;
+  top: 350px;
+  left: 3600px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #87a7b3;
+  width: 100%;
+}
+
+  .contact-form {
+    padding: 30px;
+    max-width: 500px;
+    color: #39545e;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    margin:0 auto;
+    position: absolute;
+    left:3900px;
+    top: 180px;
+  }
+
+
+  .label_input_wrap {
+    display: block;
+  }
+
+  .reset input,
+  .submit input {
+    background: #39545e;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 10px;
+    display: inline;
+  }
+
+  .input-section input,
+  .input-section textarea  {
+    border: 2px solid #39545e;
+  }
+
+  .reset,
+  .submit {
+    display: inline;
+  }
+
+  .input-section {
+    margin-bottom: 8px;
+  }
+
+  input,
+  textarea {
+    padding: 5px 10px;
+    font-family: 'Oswald', sans-serif;
+    color: #39545e;
+  }
+
+
+
+@media (min-width: 700px) {
+
+
+}

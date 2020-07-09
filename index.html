@@ -39,7 +39,7 @@
         <div class="header">
           <h1>Kathryn Barry</h1>
           <nav>
-            <ul>
+            <ul class="nav">
               <li><a href="#home">HOME</a></li>
               <li><a href="#about">ABOUT</a></li>
               <li><a href="#works">WORKS</a></li>
@@ -58,7 +58,6 @@
           <h4>WELCOME TO MY PORTFOLIO</h4>
           <h5>SCROLL &#8594;</h5>
           <img src="images/home.png" alt="profile">
-
         </section>
 
         <section class="about" id="about">
@@ -72,18 +71,111 @@
           </article>
         </section>
 
-        <section class="works">
+        <section class="works" id="works">
           <img class="divider" src="images/divider.png" alt="divider">
           <h2>WORKS.</h2>
+          <h3>DIGITAL DESIGN</h3>
+          <h4>PRODUCT DESIGN</h4>
+          <h5>CUSTOM GRAPHICS</h5>
+
+             <section class="customgraphics">
+                <div>
+                    <a href="images/kora.png" data-lightbox="customgraphic"><img src="images/kora.png" alt="custom graphic" title="custom graphic"/></a>
+                    <a href="images/marisa.png" data-lightbox="customgraphic"><img src="images/marisa.png" alt="custom graphic" title="custom graphic"></a>
+                </div>
+                <div>
+                    <a href="images/kam.png" data-lightbox="customgraphic"><img src="images/kam.png" alt="custom graphic" title="custom graphic"></a>
+                    <a href="images/dani.png" data-lightbox="customgraphic"><img src="images/dani.png" alt="custom graphic" title="custom graphic"></a>
+                </div>
+                <div>
+                    <a href="images/riley.png" data-lightbox="customgraphic"><img src="images/riley.png" alt="custom graphic" title="custom graphic"></a>
+                    <a href="images/kelsea.png" data-lightbox="customgraphic"><img src="images/kelsea.png" alt="custom graphic" title="custom graphic"></a>
+                </div>
+                <div>
+                    <a href="images/tina.png" data-lightbox="customgraphic"><img src="images/tina.png" alt="custom graphic" title="custom graphic"></a>
+                    <a href="images/syd.png" data-lightbox="customgraphic"><img src="images/syd.png" alt="custom graphic" title="custom graphic"></a>
+                </div>
+              </section>
+
+              <section class="productdesign">
+                <div>
+                  <a href="images/seniorshirt.png" data-lightbox="productdesign"><img src="images/seniorshirt.png" alt="shirt design" title="shirt design"/></a>
+                  <a href="images/swamp1.png" data-lightbox="productdesign"><img src="images/swamp1.png" alt="shirt design" title="shirt design"/></a>
+                </div>
+                <div>
+                  <a href="images/senior1.png" data-lightbox="productdesign"><img src="images/senior1.png" alt="shirt design" title="shirt design"/></a>
+                  <a href="images/swamp.png" data-lightbox="productdesign"><img src="images/swamp.png" alt="shirt design" title="shirt design"/></a>
+                </div>
+                <div>
+                  <a href="images/cup.png" data-lightbox="productdesign"><img src="images/cup.png" alt="cup design" title="cup design"/></a>
+                  <a href="images/beatvandy.png" data-lightbox="productdesign"><img src="images/beatvandy.png" alt="sticker design" title="sticker design"/></a>
+                </div>
+              </section>
+
+              <section class="digitaldesign">
+                <div>
+                  <a href="images/desktop2.png" data-lightbox="digitaldesign" data-title="*created for an academic assignment"><img src="images/desktop2.png" alt="desktop website" title="desktop website"></a>
+                  <a href="images/desktop.png" data-lightbox="digitaldesign" data-title="*created for an academic assignment"><img src="images/desktop.png" alt="mobile website" title="mobile website"></a>
+                </div>
+                <div>
+                  <a href="images/mobile2.png" data-lightbox="digitaldesign" data-title="*created for an academic assignment"><img src="images/mobile2.png" alt="mobile website" title="mobile website"/></a>
+                  <a href="images/mobile.png" data-lightbox="digitaldesign" data-title="*created for an academic assignment"><img src="images/mobile.png" alt="desktop website" title="desktop website"/></a>
+                </div>
+                <div>
+                  <a href="images/snapchat2.png" data-lightbox="digitaldesign"><img src="images/snapchat2.png" alt="snapchat filter" title="snapchat filter"></a>
+                  <a href="images/snapchat3.png" data-lightbox="digitaldesign"><img src="images/snapchat3.png" alt="snapchat filter" title="snapchat filter"/></a>
+                </div>
+              </section>
 
         </section>
 
-        <section class="resume">
-
+        <section class="resume" id="resume">
+          <img class="divider" src="images/divider.png" alt="divider">
+          <h2>RESUME.</h2>
+          <h3>CLICK TO DOWNLOAD</h3>
+          <a href="file:///Users/kathrynbarry/Desktop/KathrynBarry_Resume%20.html" target="_blank">
+            <img class="resumeimage" src="images/resume.png" alt="resume" title="resume">
+          </a>
         </section>
 
-        <section class="contact">
+        <section class="contact" id="contact">
+          <img class="divider" src="images/divider.png" alt="divider">
 
+          <h2>SAY HELLO,</h2>
+
+          <aside class="contactinfo">
+            <h3>SEND ME A MESSAGE OR</h3>
+            <h4>EMAIL ME AT KBARRY25@UFL.EDU</h4>
+          </aside>
+
+          <form class="contact-form" id="test_form" name="test_form" action="form.php" onsubmit="return validateForm(this)">
+          <div class="fullname input-section">
+            <label for="fullname" class="label_input_wrap">FULL NAME:</label>
+            <input type="text" name="fullname" id="fullname" placeholder="ex. John Doe" />
+          </div>
+
+          <div class="email input-section">
+            <label for="email" class="label_input_wrap">EMAIL:</label>
+            <input type="email" name="email" id="email" placeholder="jdoe@example.com"/>
+          </div>
+
+          <div class="telephone input-section">
+            <label for="telephone" class="label_input_wrap">PHONE NUMBER:</label>
+            <input type="tel" name="telephone" id="telephone" placeholder="(123)456-7891">
+          </div>
+
+          <div class="comments input-section">
+            <label for="comments" class="label_input_wrap">MESSAGE:</label>
+            <textarea name="comments" id="comments" rows="8" cols="50" placeholder="Type Message Here..."></textarea>
+          </div>
+
+          <div class="reset">
+            <input type="reset" value="RESET" />
+          </div>
+
+          <div class="submit">
+            <input type="submit" value="SEND MESSAGE" />
+          </div>
         </section>
 
       </div>
@@ -93,6 +185,9 @@
       </footer>
 
     </div>
+
+
+  <link href="lightbox/src/css/lightbox.css" rel="stylesheet" />
 
   </body>
 
